@@ -138,8 +138,8 @@ form {
 }
 
 .advanced-search-button {
-    background-color: rgb(53, 122, 232);
-    border: 1px solid rgb(47, 91, 183);
+    background-color: rgb(77, 144, 254);
+    border: 1px solid rgb(73, 140, 250);
     border-radius: 2px;
     min-width: 120px;
     height: 30px;
@@ -148,6 +148,17 @@ form {
     font-weight: bold;
     font-size: 11px;
     margin: 10px 0px;
+}
+
+.advanced-search-button:hover {
+    background-color: rgb(71, 135, 237);
+    border: 1px solid rgb(60, 125, 220);
+}
+
+.advanced-search-button:focus {
+    background-color: rgb(53, 122, 232);
+    border: 1px solid white;
+    outline: 1px solid rgb(53, 122, 232);
 }
 
 .footer {
